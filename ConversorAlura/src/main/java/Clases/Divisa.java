@@ -32,6 +32,12 @@ public class Divisa {
         }
         }
  
+        Object menuTemp = JOptionPane.showInputDialog(null, "Elija una opción a convertir", "Divisa",
+                JOptionPane.PLAIN_MESSAGE, null, opTemperatura, opTemperatura[0]);
+        Object menuMetros = JOptionPane.showInputDialog(null, "Elija una opción a convertir", "Divisa",
+                JOptionPane.PLAIN_MESSAGE, null, opMetros, opMetros[0]);
+        Object menuPesos = JOptionPane.showInputDialog(null, "Elija una opción a convertir", "Divisa",
+                JOptionPane.PLAIN_MESSAGE, null, opPesos, opPesos[0]);
     }
     
 }
